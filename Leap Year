@@ -1,0 +1,9 @@
+// This code will be printed whether the number is Leap year it will print "True", otherwise it will print "False".//
+
+year = int(input())
+if (year % 100 == 0) and (year % 400 == 0):
+  print("True")
+ elif (year % 4 == 0) and (year % 100 != 0):
+  print("True")
+else:
+  print("False")
