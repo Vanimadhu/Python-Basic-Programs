@@ -1,0 +1,9 @@
+// This code will be print sum of the natural numbers between ranges.//
+
+n = int(input())
+count = 1
+sum = 0
+if (count <= n):
+  sum = sum + count
+  count = count + 1
+print(sum)
