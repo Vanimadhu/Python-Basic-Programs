@@ -1,0 +1,8 @@
+// This code will be printed First and Last characters of the word and in between the word print stars(*) insted of characters.//
+
+a = input()
+length = len(a)
+index = length - 1
+star_char = length - 2
+last_char = a[index]
+print(a[0] + "*"*star_char + last_char)
