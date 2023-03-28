@@ -1,0 +1,11 @@
+anjali_input = input()
+abhinav_input = input()
+if (anjali_input == abhinav_input):
+  print("Tie")
+elif (anjali_input == "rock") and (abhinav_input == "paper"):
+  print("abhinav_wins")
+elif (anjali_input == "scissor") and (abhinav_input == "paper"):
+  print("anjali_wins")
+elif (anjali_input == "rock") and (abhinav_input == "scissor"):
+  print("anjali_wins")
+ 
