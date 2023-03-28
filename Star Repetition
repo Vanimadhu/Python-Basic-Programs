@@ -1,0 +1,6 @@
+// This will print the first character in the input word and after insted of character star(*) will be printed.//
+
+a = input()           //input word
+length = len(a)       //length of the word
+star_char = length - 1
+print(a[0]+"*"*star_char
