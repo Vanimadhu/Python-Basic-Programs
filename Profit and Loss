@@ -1,0 +1,10 @@
+//This code will be printed whether the consumer get profit or loss.//
+
+cost_price = int(input())
+selling_price = int(input())
+if (selling_price > cost_price):
+  print("Profit")
+elif (selling_price < cost_price):
+  print("loss")
+elif (selling_price == cost_price):
+  print("No profit and loss")
