@@ -1,0 +1,7 @@
+// This code will be printed last character in the word.//
+
+a = input()
+length = len(a)
+last_index = length - 1
+last_character = a[last_index]
+print(last_character)
